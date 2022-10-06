@@ -1,0 +1,50 @@
+{
+  "api": {
+    "name": "ScreenshotPlugin",
+    "slug": "screenshotplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "take",
+        "signature": "(options: TakeOptions) => Promise<{ base64: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "TakeOptions"
+          }
+        ],
+        "returns": "Promise<{ base64: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "TakeOptions"
+        ],
+        "slug": "take"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "TakeOptions",
+      "slug": "takeoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "quality",
+          "tags": [],
+          "docs": "Compression quality level (0..100) (worst..best)",
+          "complexTypes": [],
+          "type": "number"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
