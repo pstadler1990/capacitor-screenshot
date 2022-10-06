@@ -6,6 +6,7 @@
 </p>
 
 ## Updated by DFKI
+This fork adds the two optional arguments `quality` and `format` to control the compression quality and output format for the taken screenshots.
 
 ## Maintainers
 
@@ -30,7 +31,8 @@ import { Screenshot } from 'capacitor-screenshot';
 ...
 
 Screenshot.take({
- 'quality': 70
+ 'quality': 70,
+ 'format': 'JPEG'
 }).then((ret: { base64: string }) => {
     console.log(ret.base64); // or `data:image/png;base64,${ret.base64}`
 });
