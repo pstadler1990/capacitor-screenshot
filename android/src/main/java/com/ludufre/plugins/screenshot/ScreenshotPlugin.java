@@ -19,7 +19,7 @@ public class ScreenshotPlugin extends Plugin {
         getBridge().getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                int compression = 50;
+                int qualityLevel = 50;
                 Bitmap img = null;
                 View view = getBridge().getWebView();
                 view.setDrawingCacheEnabled(true);
@@ -30,13 +30,13 @@ public class ScreenshotPlugin extends Plugin {
 
                 String qualityString = call.getString("quality");
                 if (qualityString != null) {
-                    compression = Integer.parseInt(qualityString);
-                    compression = Math.min(compression, 100);
-                    compression = Math.max(compression, 0);
+                    qualityLevel = Integer.parseInt(qualityString);
+                    qualityLevel = Math.min(qualityLevel, 100);
+                    qualityLevel = Math.max(qualityLevel, 0);
                 }
 
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                resizedImg.compress(Bitmap.CompressFormat.JPEG, compression, byteArrayOutputStream);
+                resizedImg.compress.compress(Bitmap.CompressFormat.JPEG, qualityLevel, byteArrayOutputStream);
                 byte[] byteArray = byteArrayOutputStream.toByteArray();
 
                 JSObject ret = new JSObject();
