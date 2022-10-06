@@ -29,7 +29,9 @@ import { Screenshot } from 'capacitor-screenshot';
 
 ...
 
-Screenshot.take().then((ret: { base64: string }) => {
+Screenshot.take({
+ 'quality': 70
+}).then((ret: { base64: string }) => {
     console.log(ret.base64); // or `data:image/png;base64,${ret.base64}`
 });
 ```
