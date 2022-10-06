@@ -36,7 +36,7 @@ public class ScreenshotPlugin extends Plugin {
                 }
 
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                resizedImg.compress.compress(Bitmap.CompressFormat.JPEG, qualityLevel, byteArrayOutputStream);
+                resizedImg.compress(Bitmap.CompressFormat.JPEG, qualityLevel, byteArrayOutputStream);
                 byte[] byteArray = byteArrayOutputStream.toByteArray();
 
                 JSObject ret = new JSObject();
