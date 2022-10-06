@@ -5,23 +5,14 @@
   Capacitor community plugin for take screenshot.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/maintenance/yes/2021?style=flat-square" />
-  <a href="https://github.com/ludufre/capacitor-screenshot/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/ludufre/capacitor-screenshot/CI?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/capacitor-screenshot"><img src="https://img.shields.io/npm/l/capacitor-screenshot?style=flat-square" /></a>
-<br>
-  <a href="https://www.npmjs.com/package/capacitor-screenshot"><img src="https://img.shields.io/npm/dw/capacitor-screenshot?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/capacitor-screenshot"><img src="https://img.shields.io/npm/v/capacitor-screenshot?style=flat-square" /></a>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#contributors-"><img src="https://img.shields.io/badge/all%20contributors-0-orange?style=flat-square" /></a>
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-</p>
+## Updated by DFKI
 
 ## Maintainers
 
 | Maintainer             | GitHub                                | Social                                  |
 | ---------------------- | ------------------------------------- | --------------------------------------- |
 | Luan Freitas (ludufre) | [ludufre](https://github.com/ludufre) | [@ludufre](https://twitter.com/ludufre) |
+ | Patrick Stadler       | [pstadler1990](https://github.com/pstadler1990) | - |
 
 ## Installation
 
