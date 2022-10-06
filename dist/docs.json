@@ -39,7 +39,14 @@
           "tags": [],
           "docs": "Compression quality level (0..100) (worst..best)",
           "complexTypes": [],
-          "type": "number"
+          "type": "number | undefined"
+        },
+        {
+          "name": "format",
+          "tags": [],
+          "docs": "Image format (JPEG, PNG or WEBP)",
+          "complexTypes": [],
+          "type": "'JPEG' | 'PNG' | 'WEBP' | undefined"
         }
       ]
     }
